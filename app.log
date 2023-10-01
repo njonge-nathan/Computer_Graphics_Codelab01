@@ -1,0 +1,66 @@
+2023-10-01 09:59:24,695 - INFO - Reading the dataset.
+2023-10-01 09:59:24,701 - INFO - Number of male students: 35
+2023-10-01 09:59:24,701 - INFO - Number of female students: 24
+2023-10-01 09:59:24,702 - INFO - Students with special characters in their names:
+2023-10-01 09:59:24,702 - INFO - Adhiambo, Jane Daisy
+2023-10-01 09:59:24,702 - INFO - Ali, Sumeiya Abdulle Abdirizak
+2023-10-01 09:59:24,702 - INFO - Asava, Wayne Majani
+2023-10-01 09:59:24,702 - INFO - Barasa, Michelle Nekesa
+2023-10-01 09:59:24,702 - INFO - Bigingi, Ian Duncan
+2023-10-01 09:59:24,702 - INFO - Cheboi, Lormotum Noel
+2023-10-01 09:59:24,702 - INFO - Dulo, Humphrey James
+2023-10-01 09:59:24,702 - INFO - Etemesi, Caleb Asira
+2023-10-01 09:59:24,702 - INFO - Frances, Ayango
+2023-10-01 09:59:24,703 - INFO - Gitau, Sandra Wanjiru
+2023-10-01 09:59:24,703 - INFO - Hassan, Masoud Ali
+2023-10-01 09:59:24,703 - INFO - Kabui, Michelle Miceere
+2023-10-01 09:59:24,703 - INFO - Kamau, Edinah Nyambura
+2023-10-01 09:59:24,703 - INFO - Kamau, Jesse Mbugua
+2023-10-01 09:59:24,703 - INFO - Karani, Amanda Ngendo
+2023-10-01 09:59:24,703 - INFO - Kathurima, Ryan Kinoti
+2023-10-01 09:59:24,703 - INFO - Kennedy, Angel Venoliah
+2023-10-01 09:59:24,703 - INFO - Kiilu, Jeff Kioko
+2023-10-01 09:59:24,703 - INFO - Kiiru, Cynthia Everlyn Muthoni
+2023-10-01 09:59:24,703 - INFO - Kimani, Alex Mwangi
+2023-10-01 09:59:24,703 - INFO - Kinegeni, Terry
+2023-10-01 09:59:24,703 - INFO - Kyalo, Felicia Mutheu
+2023-10-01 09:59:24,703 - INFO - Leting, Sylvester Kiplagat
+2023-10-01 09:59:24,703 - INFO - Lihanda, Glen Musa
+2023-10-01 09:59:24,703 - INFO - Mahia, Jerome Kamau
+2023-10-01 09:59:24,703 - INFO - Mbugua, Nathan Ng'ethe
+2023-10-01 09:59:24,703 - INFO - Mbwanga, Emmanuel Chivunira
+2023-10-01 09:59:24,703 - INFO - Moire, Henry Nyakundi
+2023-10-01 09:59:24,704 - INFO - Morara, Keith Matwere
+2023-10-01 09:59:24,704 - INFO - Muchiri, Lynn Wairimu
+2023-10-01 09:59:24,704 - INFO - Mugendi, Emmanuel Muthomi
+2023-10-01 09:59:24,704 - INFO - Mukiri, Maryanne Wanjiku
+2023-10-01 09:59:24,704 - INFO - Mungai, Kihanya
+2023-10-01 09:59:24,704 - INFO - Musyoka, Brian Kioko
+2023-10-01 09:59:24,704 - INFO - Mutende, Arabella Fanisheba
+2023-10-01 09:59:24,704 - INFO - Mutinda, Bryan Lwaya
+2023-10-01 09:59:24,704 - INFO - Mwago, Megan Dette
+2023-10-01 09:59:24,704 - INFO - Mwai, David King
+2023-10-01 09:59:24,704 - INFO - Nalugala, Venessa Chebukwa
+2023-10-01 09:59:24,704 - INFO - Ndirangu, Denise Nyambura
+2023-10-01 09:59:24,704 - INFO - Ngahu, David Gitonga
+2023-10-01 09:59:24,704 - INFO - Ngari, Sifa Gathoni
+2023-10-01 09:59:24,704 - INFO - Nguthiru, Edwin Ndiritu
+2023-10-01 09:59:24,704 - INFO - Nyamosi, Edmond Omwega
+2023-10-01 09:59:24,704 - INFO - Nyang'or, Olive Menorah
+2023-10-01 09:59:24,704 - INFO - Omal, Warren
+2023-10-01 09:59:24,704 - INFO - Omondi, Emmanuel Neville
+2023-10-01 09:59:24,704 - INFO - Omondi, Winfred Achieng
+2023-10-01 09:59:24,704 - INFO - Otao, Davis Mokora
+2023-10-01 09:59:24,704 - INFO - Rintaugu, Mugambi Nteere
+2023-10-01 09:59:24,704 - INFO - Rotich, Mercy Chepngetich
+2023-10-01 09:59:24,704 - INFO - Sehmi, Singh Jeevan
+2023-10-01 09:59:24,704 - INFO - Vasani, Aman Upinkumar
+2023-10-01 09:59:24,704 - INFO - Wafula, Gideon Simiyu
+2023-10-01 09:59:24,704 - INFO - Wahu, Bridget Makena
+2023-10-01 09:59:24,704 - INFO - Wango, Michael Mundati
+2023-10-01 09:59:24,704 - INFO - Wangombe, Martin Mwangi
+2023-10-01 09:59:24,705 - INFO - Wanyonyi, Brian Newton
+2023-10-01 09:59:24,705 - INFO - Wasike, Nicole Jones Nekesa
+2023-10-01 09:59:24,705 - INFO - Shuffling the fields in the dataset
+2023-10-01 09:59:24,706 - INFO - Saved shuffled data as JSON.
+2023-10-01 09:59:24,706 - INFO - Saved shuffled data as JSONL.
