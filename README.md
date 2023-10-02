@@ -6,12 +6,12 @@
   Student Name: John, Doe Hussein - Email address: jhussein@ gmail.com
   
 ## Points to Note
-- Email addresses should be unique
-- If the student has two names then you need to use what is available
-- Email addresses should not have special characters
-- Main program file - main.py
-- Use log files to save all the computations
-- Save the files as TSV and CSV respectively
+* Email addresses should be unique
+* If the student has two names then you need to use what is available
+* Email addresses should not have special characters
+* Main program file - main.py
+* Use log files to save all the computations
+* Save the files as TSV and CSV respectively
    
 - Generate separate lists of Male and Female students
   
