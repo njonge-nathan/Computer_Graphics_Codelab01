@@ -13,16 +13,15 @@
 * Use log files to save all the computations
 * Save the files as TSV and CSV respectively
    
-- Generate separate lists of Male and Female students
+Generate separate lists of Male and Female students
+In the logs, you need to show the number of all male students and female students
   
-- In the logs, you need to show the number of all male students and female students
+List the names of students with special characters for example Orony, Charis Ng'wono - regex solution
   
-- List the names of students with special characters for example Orony, Charis Ng'wono - regex solution
-- 
-- Merge all the documents into one file then:
-- 
-- Using Pandas, run a one time shuffle of the names and save the file as a json file.
-- 
-- Save another copy as a Jsonl file with the format below. 
+Merge all the documents into one file then:
+  
+Using Pandas, run a one time shuffle of the names and save the file as a json file.
+  
+Save another copy as a Jsonl file with the format below. 
 
-- Generate your Google API key and save all your files in Google Drive for backup
+Generate your Google API key and save all your files in Google Drive for backup
