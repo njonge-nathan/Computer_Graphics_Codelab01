@@ -45,6 +45,13 @@ df.to_csv('output.csv', index=False)
 male_students = df[df['Gender'] == 'M']
 female_students = df[df['Gender'] == 'F']
 
+# Log the lists of male and female students
+logging.info('Male Students:')
+logging.info(male_students.to_string(index=False))
+
+logging.info('Female Students:')
+logging.info(female_students.to_string(index=False))
+
 # Count and log the number of male and female students
 num_male_students = len(male_students)
 num_female_students = len(female_students)

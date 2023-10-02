@@ -1,66 +1,129 @@
-2023-10-01 09:59:24,695 - INFO - Reading the dataset.
-2023-10-01 09:59:24,701 - INFO - Number of male students: 35
-2023-10-01 09:59:24,701 - INFO - Number of female students: 24
-2023-10-01 09:59:24,702 - INFO - Students with special characters in their names:
-2023-10-01 09:59:24,702 - INFO - Adhiambo, Jane Daisy
-2023-10-01 09:59:24,702 - INFO - Ali, Sumeiya Abdulle Abdirizak
-2023-10-01 09:59:24,702 - INFO - Asava, Wayne Majani
-2023-10-01 09:59:24,702 - INFO - Barasa, Michelle Nekesa
-2023-10-01 09:59:24,702 - INFO - Bigingi, Ian Duncan
-2023-10-01 09:59:24,702 - INFO - Cheboi, Lormotum Noel
-2023-10-01 09:59:24,702 - INFO - Dulo, Humphrey James
-2023-10-01 09:59:24,702 - INFO - Etemesi, Caleb Asira
-2023-10-01 09:59:24,702 - INFO - Frances, Ayango
-2023-10-01 09:59:24,703 - INFO - Gitau, Sandra Wanjiru
-2023-10-01 09:59:24,703 - INFO - Hassan, Masoud Ali
-2023-10-01 09:59:24,703 - INFO - Kabui, Michelle Miceere
-2023-10-01 09:59:24,703 - INFO - Kamau, Edinah Nyambura
-2023-10-01 09:59:24,703 - INFO - Kamau, Jesse Mbugua
-2023-10-01 09:59:24,703 - INFO - Karani, Amanda Ngendo
-2023-10-01 09:59:24,703 - INFO - Kathurima, Ryan Kinoti
-2023-10-01 09:59:24,703 - INFO - Kennedy, Angel Venoliah
-2023-10-01 09:59:24,703 - INFO - Kiilu, Jeff Kioko
-2023-10-01 09:59:24,703 - INFO - Kiiru, Cynthia Everlyn Muthoni
-2023-10-01 09:59:24,703 - INFO - Kimani, Alex Mwangi
-2023-10-01 09:59:24,703 - INFO - Kinegeni, Terry
-2023-10-01 09:59:24,703 - INFO - Kyalo, Felicia Mutheu
-2023-10-01 09:59:24,703 - INFO - Leting, Sylvester Kiplagat
-2023-10-01 09:59:24,703 - INFO - Lihanda, Glen Musa
-2023-10-01 09:59:24,703 - INFO - Mahia, Jerome Kamau
-2023-10-01 09:59:24,703 - INFO - Mbugua, Nathan Ng'ethe
-2023-10-01 09:59:24,703 - INFO - Mbwanga, Emmanuel Chivunira
-2023-10-01 09:59:24,703 - INFO - Moire, Henry Nyakundi
-2023-10-01 09:59:24,704 - INFO - Morara, Keith Matwere
-2023-10-01 09:59:24,704 - INFO - Muchiri, Lynn Wairimu
-2023-10-01 09:59:24,704 - INFO - Mugendi, Emmanuel Muthomi
-2023-10-01 09:59:24,704 - INFO - Mukiri, Maryanne Wanjiku
-2023-10-01 09:59:24,704 - INFO - Mungai, Kihanya
-2023-10-01 09:59:24,704 - INFO - Musyoka, Brian Kioko
-2023-10-01 09:59:24,704 - INFO - Mutende, Arabella Fanisheba
-2023-10-01 09:59:24,704 - INFO - Mutinda, Bryan Lwaya
-2023-10-01 09:59:24,704 - INFO - Mwago, Megan Dette
-2023-10-01 09:59:24,704 - INFO - Mwai, David King
-2023-10-01 09:59:24,704 - INFO - Nalugala, Venessa Chebukwa
-2023-10-01 09:59:24,704 - INFO - Ndirangu, Denise Nyambura
-2023-10-01 09:59:24,704 - INFO - Ngahu, David Gitonga
-2023-10-01 09:59:24,704 - INFO - Ngari, Sifa Gathoni
-2023-10-01 09:59:24,704 - INFO - Nguthiru, Edwin Ndiritu
-2023-10-01 09:59:24,704 - INFO - Nyamosi, Edmond Omwega
-2023-10-01 09:59:24,704 - INFO - Nyang'or, Olive Menorah
-2023-10-01 09:59:24,704 - INFO - Omal, Warren
-2023-10-01 09:59:24,704 - INFO - Omondi, Emmanuel Neville
-2023-10-01 09:59:24,704 - INFO - Omondi, Winfred Achieng
-2023-10-01 09:59:24,704 - INFO - Otao, Davis Mokora
-2023-10-01 09:59:24,704 - INFO - Rintaugu, Mugambi Nteere
-2023-10-01 09:59:24,704 - INFO - Rotich, Mercy Chepngetich
-2023-10-01 09:59:24,704 - INFO - Sehmi, Singh Jeevan
-2023-10-01 09:59:24,704 - INFO - Vasani, Aman Upinkumar
-2023-10-01 09:59:24,704 - INFO - Wafula, Gideon Simiyu
-2023-10-01 09:59:24,704 - INFO - Wahu, Bridget Makena
-2023-10-01 09:59:24,704 - INFO - Wango, Michael Mundati
-2023-10-01 09:59:24,704 - INFO - Wangombe, Martin Mwangi
-2023-10-01 09:59:24,705 - INFO - Wanyonyi, Brian Newton
-2023-10-01 09:59:24,705 - INFO - Wasike, Nicole Jones Nekesa
-2023-10-01 09:59:24,705 - INFO - Shuffling the fields in the dataset
-2023-10-01 09:59:24,706 - INFO - Saved shuffled data as JSON.
-2023-10-01 09:59:24,706 - INFO - Saved shuffled data as JSONL.
+2023-10-02 11:29:05,142 - INFO - Reading the dataset.
+2023-10-02 11:29:05,169 - INFO - Male Students:
+2023-10-02 11:29:05,176 - INFO -  No.  Student Number                Student Name        DoB        Email Address Gender
+   3          146072         Asava, Wayne Majani 2002-11-03    amajani@gmail.com      M
+   5          143496         Bigingi, Ian Duncan 2003-04-19    bduncan@gmail.com      M
+   6          146171       Cheboi, Lormotum Noel 2000-07-21      cnoel@gmail.com      M
+   7          145835        Dulo, Humphrey James 2002-04-22     djames@gmail.com      M
+   8          146565        Etemesi, Caleb Asira 2003-02-04     easira@gmail.com      M
+  11          146424          Hassan, Masoud Ali 2001-09-22       hali@gmail.com      M
+  14          137991         Kamau, Jesse Mbugua 2003-08-14    kmbugua@gmail.com      M
+  16          145212      Kathurima, Ryan Kinoti 2000-04-28    kkinoti@gmail.com      M
+  18          136395           Kiilu, Jeff Kioko 2002-12-28     kkioko@gmail.com      M
+  20          141690         Kimani, Alex Mwangi 2002-06-18    kmwangi@gmail.com      M
+  23          138216  Leting, Sylvester Kiplagat 2003-12-15  lkiplagat@gmail.com      M
+  24          139991          Lihanda, Glen Musa 2003-11-26      lmusa@gmail.com      M
+  25          144915         Mahia, Jerome Kamau 2003-11-26     mkamau@gmail.com      M
+  26          115104      Mbugua, Nathan Ng'ethe 2002-06-26   mng'ethe@gmail.com      M
+  27          139074 Mbwanga, Emmanuel Chivunira 2002-11-07 mchivunira@gmail.com      M
+  28           92313       Moire, Henry Nyakundi 2003-04-07  mnyakundi@gmail.com      M
+  29          129029       Morara, Keith Matwere 2000-08-26   mmatwere@gmail.com      M
+  31          144338   Mugendi, Emmanuel Muthomi 2000-08-16   mmuthomi@gmail.com      M
+  33          145351             Mungai, Kihanya 2000-09-10   mkihanya@gmail.com      M
+  34          145836        Musyoka, Brian Kioko 2002-07-10     mkioko@gmail.com      M
+  36          145703        Mutinda, Bryan Lwaya 2003-06-01     mlwaya@gmail.com      M
+  38          145041            Mwai, David King 2000-02-28      mking@gmail.com      M
+  41          139149        Ngahu, David Gitonga 2000-08-09   ngitonga@gmail.com      M
+  43          134321     Nguthiru, Edwin Ndiritu 2001-01-04   nndiritu@gmail.com      M
+  44          145354      Nyamosi, Edmond Omwega 2001-04-12    nomwega@gmail.com      M
+  46          122993                Omal, Warren 2003-07-08    owarren@gmail.com      M
+  47          145182    Omondi, Emmanuel Neville 2003-11-16   oneville@gmail.com      M
+  49          131778          Otao, Davis Mokora 2001-06-04    omokora@gmail.com      M
+  50          146202    Rintaugu, Mugambi Nteere 2000-05-28    rnteere@gmail.com      M
+  52          146254         Sehmi, Singh Jeevan 2001-01-24    sjeevan@gmail.com      M
+  53          144914      Vasani, Aman Upinkumar 2002-12-26 vupinkumar@gmail.com      M
+  54          135361       Wafula, Gideon Simiyu 2003-12-15    wsimiyu@gmail.com      M
+  56          145369      Wango, Michael Mundati 2002-12-06   wmundati@gmail.com      M
+  57          137938     Wangombe, Martin Mwangi 2002-08-08    wmwangi@gmail.com      M
+  58          145838      Wanyonyi, Brian Newton 2002-02-17    wnewton@gmail.com      M
+2023-10-02 11:29:05,178 - INFO - Female Students:
+2023-10-02 11:29:05,183 - INFO -  No.  Student Number                   Student Name        DoB          Email Address Gender
+   1          136603           Adhiambo, Jane Daisy 2003-03-04       adaisy@gmail.com      F
+   2          142285 Ali, Sumeiya Abdulle Abdirizak 2002-05-01   aabdirizak@gmail.com      F
+   4          145210        Barasa, Michelle Nekesa 2000-06-25      bnekesa@gmail.com      F
+   9          136046                Frances, Ayango 2001-11-25      fayango@gmail.com      F
+  10          146399          Gitau, Sandra Wanjiru 2003-01-11     gwanjiru@gmail.com      F
+  12          145279        Kabui, Michelle Miceere 2002-02-27     kmiceere@gmail.com      F
+  13          145491         Kamau, Edinah Nyambura 2003-02-08    knyambura@gmail.com      F
+  15          146013          Karani, Amanda Ngendo 2002-12-23      kngendo@gmail.com      F
+  17          145802        Kennedy, Angel Venoliah 2001-12-25    kvenoliah@gmail.com      F
+  19          137503 Kiiru, Cynthia Everlyn Muthoni 2001-12-05     kmuthoni@gmail.com      F
+  21          128576                Kinegeni, Terry 2000-12-09       kterry@gmail.com      F
+  22          145602          Kyalo, Felicia Mutheu 2001-03-03      kmutheu@gmail.com      F
+  30          138583          Muchiri, Lynn Wairimu 2001-07-22     mwairimu@gmail.com      F
+  32          140091       Mukiri, Maryanne Wanjiku 2000-10-13     mwanjiku@gmail.com      F
+  35          139133    Mutende, Arabella Fanisheba 2002-05-06   mfanisheba@gmail.com      F
+  37          146016             Mwago, Megan Dette 2001-08-14       mdette@gmail.com      F
+  39          145646     Nalugala, Venessa Chebukwa 2001-11-13    nchebukwa@gmail.com      F
+  40          145813      Ndirangu, Denise Nyambura 2002-12-08    nnyambura@gmail.com      F
+  42          141733            Ngari, Sifa Gathoni 2003-06-15     ngathoni@gmail.com      F
+  45          145536        Nyang'or, Olive Menorah 2002-07-12     nmenorah@gmail.com      F
+  48          146533        Omondi, Winfred Achieng 2000-06-18     oachieng@gmail.com      F
+  51          146413      Rotich, Mercy Chepngetich 2003-07-10 rchepngetich@gmail.com      F
+  55          145770           Wahu, Bridget Makena 2002-04-10      wmakena@gmail.com      F
+  59          138616    Wasike, Nicole Jones Nekesa 2003-11-20      wnekesa@gmail.com      F
+2023-10-02 11:29:05,183 - INFO - Number of male students: 35
+2023-10-02 11:29:05,183 - INFO - Number of female students: 24
+2023-10-02 11:29:05,185 - INFO - Students with special characters in their names:
+2023-10-02 11:29:05,185 - INFO - Adhiambo, Jane Daisy
+2023-10-02 11:29:05,185 - INFO - Ali, Sumeiya Abdulle Abdirizak
+2023-10-02 11:29:05,185 - INFO - Asava, Wayne Majani
+2023-10-02 11:29:05,185 - INFO - Barasa, Michelle Nekesa
+2023-10-02 11:29:05,185 - INFO - Bigingi, Ian Duncan
+2023-10-02 11:29:05,185 - INFO - Cheboi, Lormotum Noel
+2023-10-02 11:29:05,185 - INFO - Dulo, Humphrey James
+2023-10-02 11:29:05,186 - INFO - Etemesi, Caleb Asira
+2023-10-02 11:29:05,186 - INFO - Frances, Ayango
+2023-10-02 11:29:05,186 - INFO - Gitau, Sandra Wanjiru
+2023-10-02 11:29:05,186 - INFO - Hassan, Masoud Ali
+2023-10-02 11:29:05,186 - INFO - Kabui, Michelle Miceere
+2023-10-02 11:29:05,186 - INFO - Kamau, Edinah Nyambura
+2023-10-02 11:29:05,186 - INFO - Kamau, Jesse Mbugua
+2023-10-02 11:29:05,186 - INFO - Karani, Amanda Ngendo
+2023-10-02 11:29:05,186 - INFO - Kathurima, Ryan Kinoti
+2023-10-02 11:29:05,186 - INFO - Kennedy, Angel Venoliah
+2023-10-02 11:29:05,187 - INFO - Kiilu, Jeff Kioko
+2023-10-02 11:29:05,187 - INFO - Kiiru, Cynthia Everlyn Muthoni
+2023-10-02 11:29:05,187 - INFO - Kimani, Alex Mwangi
+2023-10-02 11:29:05,187 - INFO - Kinegeni, Terry
+2023-10-02 11:29:05,187 - INFO - Kyalo, Felicia Mutheu
+2023-10-02 11:29:05,187 - INFO - Leting, Sylvester Kiplagat
+2023-10-02 11:29:05,187 - INFO - Lihanda, Glen Musa
+2023-10-02 11:29:05,187 - INFO - Mahia, Jerome Kamau
+2023-10-02 11:29:05,187 - INFO - Mbugua, Nathan Ng'ethe
+2023-10-02 11:29:05,187 - INFO - Mbwanga, Emmanuel Chivunira
+2023-10-02 11:29:05,187 - INFO - Moire, Henry Nyakundi
+2023-10-02 11:29:05,188 - INFO - Morara, Keith Matwere
+2023-10-02 11:29:05,188 - INFO - Muchiri, Lynn Wairimu
+2023-10-02 11:29:05,188 - INFO - Mugendi, Emmanuel Muthomi
+2023-10-02 11:29:05,188 - INFO - Mukiri, Maryanne Wanjiku
+2023-10-02 11:29:05,188 - INFO - Mungai, Kihanya
+2023-10-02 11:29:05,188 - INFO - Musyoka, Brian Kioko
+2023-10-02 11:29:05,188 - INFO - Mutende, Arabella Fanisheba
+2023-10-02 11:29:05,188 - INFO - Mutinda, Bryan Lwaya
+2023-10-02 11:29:05,188 - INFO - Mwago, Megan Dette
+2023-10-02 11:29:05,188 - INFO - Mwai, David King
+2023-10-02 11:29:05,188 - INFO - Nalugala, Venessa Chebukwa
+2023-10-02 11:29:05,189 - INFO - Ndirangu, Denise Nyambura
+2023-10-02 11:29:05,189 - INFO - Ngahu, David Gitonga
+2023-10-02 11:29:05,189 - INFO - Ngari, Sifa Gathoni
+2023-10-02 11:29:05,189 - INFO - Nguthiru, Edwin Ndiritu
+2023-10-02 11:29:05,189 - INFO - Nyamosi, Edmond Omwega
+2023-10-02 11:29:05,189 - INFO - Nyang'or, Olive Menorah
+2023-10-02 11:29:05,189 - INFO - Omal, Warren
+2023-10-02 11:29:05,189 - INFO - Omondi, Emmanuel Neville
+2023-10-02 11:29:05,189 - INFO - Omondi, Winfred Achieng
+2023-10-02 11:29:05,189 - INFO - Otao, Davis Mokora
+2023-10-02 11:29:05,190 - INFO - Rintaugu, Mugambi Nteere
+2023-10-02 11:29:05,190 - INFO - Rotich, Mercy Chepngetich
+2023-10-02 11:29:05,190 - INFO - Sehmi, Singh Jeevan
+2023-10-02 11:29:05,190 - INFO - Vasani, Aman Upinkumar
+2023-10-02 11:29:05,190 - INFO - Wafula, Gideon Simiyu
+2023-10-02 11:29:05,190 - INFO - Wahu, Bridget Makena
+2023-10-02 11:29:05,190 - INFO - Wango, Michael Mundati
+2023-10-02 11:29:05,190 - INFO - Wangombe, Martin Mwangi
+2023-10-02 11:29:05,190 - INFO - Wanyonyi, Brian Newton
+2023-10-02 11:29:05,190 - INFO - Wasike, Nicole Jones Nekesa
+2023-10-02 11:29:05,191 - INFO - Shuffling the fields in the dataset
+2023-10-02 11:29:05,196 - INFO - Saved shuffled data as JSON.
+2023-10-02 11:29:05,198 - INFO - Saved shuffled data as JSONL.
