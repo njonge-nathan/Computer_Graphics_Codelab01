@@ -1,3 +1,5 @@
+import json
+import re
 import pandas as pd
 import logging
 
@@ -13,6 +15,7 @@ logging.info('Reading the dataset.')
 # Assuming the dataset contains a 'Name' column and an empty 'Email' column
 student_names = df['Student Name']
 
+
 # Generate email addresses and save them in the 'Email' column
 def generate_email(name):
     parts = name.split()
@@ -23,6 +26,7 @@ def generate_email(name):
         return email
     else:
         return None
+
 
 # Apply the generate_email function to create email addresses
 df['Email Address'] = student_names.apply(generate_email)
@@ -63,7 +67,24 @@ logging.info(f'Number of female students: {num_female_students}')
 print(f"Number of male students: {num_male_students}")
 print(f"Number of female students: {num_female_students}")
 
+
 # List Names of Students with Special Characters
+
+
+# Define a function to check for special characters in a name
+def has_special_characters(name):
+    # Define a regular expression pattern to match special characters
+    special_char_pattern = r'[^\w\s]'
+
+    # Use re.search() to check for special characters in the name
+    if re.search(special_char_pattern, name):
+        return 'yes'
+    else:
+        return 'no'
+
+
+# Apply the has_special_characters function to create the 'Special_character' column
+df['Special_character'] = df['Student Name'].apply(has_special_characters)
 
 # Define a regular expression pattern to match special characters
 special_char_pattern = r'[^\w\s]'
@@ -81,7 +102,6 @@ print("Students with special characters in their names:")
 for name in students_with_special_chars['Student Name']:
     print(name)
 
-
 # Merge the dataframes if you have additional student information
 
 # Log message for shuffling the fields
@@ -90,15 +110,40 @@ logging.info(f'Shuffling the fields in the dataset')
 # Shuffle the fields (columns) in the DataFrame
 shuffled_df = df.sample(frac=1, axis=1, random_state=42)
 
-
 # Log message for saving as JSON
 logging.info('Saved shuffled data as JSON.')
 
 # Save the shuffled DataFrame as a JSON file
 shuffled_df.to_json('shuffled_data.json', orient='records', lines=False)
 
+# Create a list of dictionaries in the specified format
+
+# Initialize a counter for the "Id" values
+id_counter = 0
+
+jsonl_data = []
+for index, row in shuffled_df.iterrows():
+    # Increment the "Id" counter for each student
+    id_counter += 1
+
+    student_data = {
+        "Id": str(id_counter),
+        "Student Number": str(row['Student Number']),
+        "additional_details": {
+            "DoB": str(row['DoB']),  # Ensure Dob is a string
+            "Gender": row['Gender'],
+            "Special_character": row['Special_character']
+        }
+    }
+    jsonl_data.append(student_data)
+
+# Save the list of dictionaries as a JSONL (JSON Lines) file
+with open('shuffled_data.jsonl', 'w') as jsonl_file:
+    for record in jsonl_data:
+        jsonl_file.write(json.dumps(record) + '\n')
+
 # Log message for saving as JSONL
 logging.info('Saved shuffled data as JSONL.')
 
 # Save the shuffled DataFrame as a JSONL (JSON Lines) file
-shuffled_df.to_json('shuffled_data.jsonl', orient='records', lines=True)
+# shuffled_df.to_json('shuffled_data.jsonl', orient='records', lines=True)
